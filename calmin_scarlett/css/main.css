@@ -1,5 +1,10 @@
 .bordered-div {
-    border: 1px solid #000;
+    border: 5px double #29c75e /*rgb(41,199, 94)*/;
     padding: 10px;
     margin: 10px;
+
+    /* padding-left: 20px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    margin-top: 10px; */
 }
