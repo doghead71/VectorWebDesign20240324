@@ -1,0 +1,11 @@
+.bordered-div {
+    border: 5px double #000;
+    padding: 1px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.main-content{
+
+    border: 2px solid #000
+}
