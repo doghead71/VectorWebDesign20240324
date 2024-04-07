@@ -1,5 +1,25 @@
 .bordered-div {
-    border: 1px solid #000;
+    
+    
+        width:300px; 
+        margin: 50px; 
+        outline: 5px solid rgb(220, 231, 66);
+        border-radius:30px; 
+        box-shadow: 5px 8px 18px rgba(16, 2, 86, 0.978);
+        
+    
+      
+     
+      
+    /*border: 5px solid #29c75e /*rgb(41, 199, 94);
     padding: 10px;
-    margin: 10px;
+    margin: 10px;*/
+
+    
+    
+    /*border: 5px solid #000;
+    padding-left: 20px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;*/
     }
