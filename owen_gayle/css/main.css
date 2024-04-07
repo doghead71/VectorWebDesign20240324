@@ -1,18 +1,32 @@
 .bordered-div {
-    
-    
-        width:300px; 
-        margin: 50px; 
-        padding: 20px;
-        outline: 5px solid rgb(220, 231, 66);
-        border-radius:30px; 
+  margin: 50px; 
+  padding: 20px;
+  border-radius:30px;
+  border: 5px double #29c75e
+        
+  }
+
+    .main-content {
+        border: 2px solid #0000;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 200px;  
+    }
+        
+         /*rgb(41, 199, 94);
+        
+        
+        /*outline: 5px solid rgb(220, 231, 66);
+          width:300px; 
         box-shadow: 5px 8px 18px rgba(16, 2, 86, 0.978);
         
     
       
      
       
-    /*border: 5px solid #29c75e /*rgb(41, 199, 94);
+    /*
     padding: 10px;
     margin: 10px;*/
 
@@ -23,4 +37,4 @@
     padding-top: 50px;
     margin-top: 50px;
     margin-bottom: 10px;*/
-    }
+    
