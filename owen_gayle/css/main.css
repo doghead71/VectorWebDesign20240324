@@ -3,6 +3,7 @@
     
         width:300px; 
         margin: 50px; 
+        padding: 20px;
         outline: 5px solid rgb(220, 231, 66);
         border-radius:30px; 
         box-shadow: 5px 8px 18px rgba(16, 2, 86, 0.978);
