@@ -1,9 +1,11 @@
 body {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  /* margin: 0px;
+  padding: 0px; */
 }
 
 .bordered-div {
-  border: 5px double #d80d22 /*rgb(41,199, 94)*/;
+  border: 5px double blue /*rgb(41,199, 94)*/;
   padding: 10px;
   margin: 10px;
   /*outline: 3px solid blue;  Adds a blue outline outside the red border */
@@ -16,19 +18,58 @@ body {
     margin-top: 10px; */
 }
 
-.main-content {
-  border: 2px solid #000000;
+.main-styling {
+  border: 2px solid purple;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  height: 200px;
+  /* height: 200px; */
+  border-radius: 15px;
 }
 
-.main-content > div {
-    flex-grow: 1;
+.main-styling > div {
+  flex: 25%;
 }
 
-.main-content #main-panel {
-    flex-grow: 2;
+.main-styling #main-panel {
+  flex: 50%;
 }
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  .main-styling {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  .main-styling > div {
+    /* flex: 50%; */
+    max-width: 50%;
+  }
+
+  .main-styling #main-panel {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-styling {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: normal;
+    height: auto;
+  }
+
+  .main-styling > div {
+    flex: 100%;
+  }
+
+  .main-styling #main-panel {
+    flex: 100%;
+  }
+}
+
+
