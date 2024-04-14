@@ -5,7 +5,7 @@ body {
 .bordered-div {
     margin: 20px;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 5px double #2c84f0
 }
 
@@ -29,7 +29,7 @@ body {
     flex: 50%;
 }
 
-@media only screen and (max-width:601px) and (max-width: 900px) {
+@media only screen and (min-width:601px) and (max-width: 900px) {
     .main-content {
         flex-direction: row;
         flex-wrap: wrap;
@@ -52,18 +52,21 @@ body {
         flex-wrap: wrap;
         align-items: normal;
         height: auto;
-}
-    
     }
- .main-content>div {
+
+    .main-content>div {
+        flex: 50%;
+    }
+
+    .main-content #main-panel {
         flex: 100%;
- }
-  .main-content #main-panel {
-        flex: 100%;
-  }  
+
+    }
+
+}
 
 
-    /*rgb(41, 199, 94);
+/*rgb(41, 199, 94);
         
         
         /*outline: 5px solid rgb(220, 231, 66);
@@ -80,7 +83,7 @@ body {
 
 
 
-    /*border: 5px solid #000;
+/*border: 5px solid #000;
     padding-left: 20px;
     padding-top: 50px;
     margin-top: 50px;
