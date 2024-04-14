@@ -2,16 +2,15 @@ body {
     box-sizing: border-box;
 }
 
-
 .bordered-div {
     margin: 20px;
     padding: 20px;
-    border-radius: 30px;
-    border: 2px double #021207
+    border-radius: 20px;
+    border: 2px double #f30606
 }
 
 .main-content {
-    border: 2px solid #000000;
+    border: 2px solid #050700;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -19,15 +18,30 @@ body {
     height: 200px;
 }
 
-.main-content > div  {
+.main-content>div {
     flex-grow: 1;
 }
 
 
 .main-content #main-panel div {
-    flex-grow: 3;
+    flex-grow: 2;
 }
 
+@media only screen and (max-width:600px) {
+    .main-content  {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+    }
+
+    .main-content > div{
+        flex: 50%;
+    }
+    .main-content #main-panel   {
+        flex: 100%;
+    }
+}
 
 
 
