@@ -9,7 +9,7 @@ body {
     border: 5px double #2c84f0
 }
 
-.main-content {
+.main-styling {
     border: 2px solid #050700;
     display: flex;
     flex-direction: row;
@@ -20,24 +20,24 @@ body {
     /*height: 200px;*/
 }
 
-.main-content>div {
+.main-styling>div {
     flex: 25%;
 }
 
 
-.main-content #main-panel {
+.main-styling #main-panel {
     flex: 50%;
 }
 
 @media only screen and (min-width:601px) and (max-width: 900px) {
-    .main-content {
+    .main-styling {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
         height: auto;
     }
 
-    .main-content>div {
+    .main-styling>div {
         flex: 35%;
     }
 
