@@ -38,7 +38,7 @@ body {
     }
 
     .main-content>div {
-        flex: 40%;
+        flex: 35%;
     }
 
     .main-content #main-panel {
