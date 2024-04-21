@@ -29,7 +29,33 @@ body {
     flex: 50%;
 }
 
-@media only screen and (min-width:601px) and (max-width: 900px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo {
+        width: 100px;
+        height: auto;
+        display: inline-block;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-links{
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+
+.nav-links{
+    padding: 20px 15px;
+    display: inline-block;
+}
+    @media only screen and (min-width:601px) and (max-width: 900px) {
     .main-styling {
         flex-direction: row;
         flex-wrap: wrap;
