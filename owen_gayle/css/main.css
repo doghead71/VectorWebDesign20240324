@@ -47,18 +47,18 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    .main-content {
+    .main-styling {
         flex-direction: column;
         flex-wrap: wrap;
         align-items: normal;
         height: auto;
     }
 
-    .main-content>div {
+    .main-styling>div {
         flex: 50%;
     }
 
-    .main-content #main-panel {
+    .main-styling #main-panel {
         flex: 100%;
 
     }
