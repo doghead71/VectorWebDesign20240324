@@ -20,7 +20,7 @@ body {
     /*height: 200px;*/
 }
 
-.main-styling>div {
+.main-styling > div {
     flex: 25%;
 }
 
@@ -51,7 +51,7 @@ body {
         flex-wrap: wrap;
     }
 
-.nav-links{
+.nav-links a {
     padding: 20px 15px;
     display: inline-block;
 }
