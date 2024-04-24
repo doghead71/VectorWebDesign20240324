@@ -36,8 +36,11 @@ body {
 
     .logo {
         width: 100px;
-        height: auto;
+        height: 100px;
         display: inline-block;
+        flex-basis: 100px;
+        flex-grow: 0;
+        flex-shrink: 0;
     }
     nav{
         width: 100%;
