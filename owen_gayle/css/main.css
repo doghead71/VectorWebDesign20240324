@@ -52,11 +52,15 @@ body {
         display: flex;
         list-style: none;
         flex-wrap: wrap;
+        background-color: brown;
     }
 
 .nav-links a {
     padding: 20px 15px;
     display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
     @media only screen and (min-width:601px) and (max-width: 900px) {
     .main-styling {
