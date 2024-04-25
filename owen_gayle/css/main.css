@@ -65,12 +65,12 @@ nav {
 }
 
 .nav-links a:hover {
-    background-color: greenyellow;
+    background-color: yellow;
     color: black;
 }
 
 .nav-links a.current {
-    background-color: pink;
+    background-color: green;
     color: white;
 }
 
