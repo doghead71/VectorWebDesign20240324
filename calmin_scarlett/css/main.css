@@ -1,5 +1,6 @@
 body {
   box-sizing: border-box;
+  background-color:lightgray;
   /* margin: 0px;
   padding: 0px; */
 }
@@ -44,8 +45,11 @@ img {
 
 .logo {
   width: 100px;
-  height:auto;
-  display: inline-block
+  height:100px;
+  display: inline-block;
+  flex-basis: 100px;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 nav{
@@ -58,11 +62,49 @@ nav{
   display: flex;
   list-style: none;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  height: auto;
+
+}
+
+.nav-links li {
+  background-color: aqua;
+  flex-basis:150px;
+  flex-grow:1;
+  flex-shrink: 1;
+
 }
 
 .nav-links a {
-  padding: 20px 15px;
-  display: inline-block
+  padding: 10px 15px 10px 0px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: aqua;
+}
+
+.nav-links a:hover {
+  background-color: blue;
+  color: white;
+}
+
+.nav-links a.current {
+  background-color: green;
+  color: white;
+}
+
+.all_caps{
+  text-transform: uppercase;
+}
+
+h4{
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+h3{
+  margin: 0px;
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px) { /*tablet view */
