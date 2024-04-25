@@ -62,6 +62,10 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
+.nav-links a :hover {
+    background-color: yellow;
+    color: white;
+}
     @media only screen and (min-width:601px) and (max-width: 900px) {
     .main-styling {
         flex-direction: row;
