@@ -1,0 +1,136 @@
+body{
+    box-sizing: border-box; /* applies padding to body first by margin then width and height  */
+    background-color: lightgray;
+}
+
+
+.bordered-div { /* inner border */
+    border: 5px solid #000;
+    padding: 10px; /* for the content inside the bordered div and how far ithe border around it is */
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+
+.main-content {/* outer border  a container that contains css rules to tell the browser is to make the style behave and look */
+    border: 2px solid #000000;
+    display: flex; /*controls the content in the flex box this items are called flex items can be move and maniupated by the programmer? */
+    flex-direction: row;/*controls the flex direction of flex items in the flex box can be move */
+    justify-content: center; /*aligns the content horizontally in the flex box*/
+    align-items: center; /*align the content VERTICALlly in the flex box*/
+    height: auto;/*height of the flex item from the flex container or box*/
+    border-radius: 10px;
+
+}
+
+.main-content > div { /* mean that the child of the primary div name class "main-content" gets the property changes not the grandchild of the child div*/
+    flex-grow: 25%; /* grow the container width of the child div */
+}
+
+.main-content #main-panel { /* set the div id of the main panel to grow 3x an the '#' is to refer to the id and be a specfic rule for it as id are unique*/
+    flex-grow: 50%;
+}
+img{
+    width: 100%;
+    height: auto;
+} /*the class the class is as wide as its container*/
+.logo{ /* this is the class logo-container*/
+    width: 100px;  
+    height: 100px;
+    display: inline-block;
+    flex-basis: 100px;
+    flex-grow: 0; /* this is the growing the flex item to this amount or shrink if its flex shrink setting it at 0 disables it */
+    flex-shrink: 0;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.nav-links li {
+    background-color: aqua;
+    flex-basis: 150px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.nav-links a { /* anchor tag styles the spcae between the letters and how the word arev dislay inline block*/
+    padding: 20px 15px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: aqua;
+    flex: 1;
+}
+
+.nav-links a:hover {  /* adds hover state for links */
+    background-color: blue;
+    color:white;}
+
+.nav-links a.current { /* class created to highlight current link that is open on the homepage in green */
+    background-color: green;
+    color: white;
+}
+
+.all_caps{
+    text-transform: uppercase;
+}
+
+h4{
+    margin: 0px;
+}
+
+h3{
+    margin: 0px;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) { /* tablet view */
+    .main-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        height: auto;
+    }
+    .main-content > div {
+        flex: 50%;
+    }
+    .main-content #main-panel {
+        flex: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {        /* set the the content to be sized at the same width in colums when the screen is 600 pixels and this is phone view*/
+    .main-content {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: normal;
+        height: auto;
+    }
+}
+
+ .main-content > div {
+    flex: 40%;
+ }
+ 
+ .main-content #main-panel {
+    flex: 100%;
+ }
+
+
+
+
+
+
+
+
+
+/* format doucment indentation by right clicking and selecting format document */
