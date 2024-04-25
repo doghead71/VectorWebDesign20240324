@@ -59,18 +59,18 @@ nav {
 .nav-links a {
     padding: 20px 15px;
     display: inline-block;
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
     font-weight: bold;
 }
 
-.nav-links a :hover {
-    background-color: yellow;
-    color: white;
+.nav-links a:hover {
+    background-color: greenyellow;
+    color: black;
 }
 
 .nav-links a.current {
-    background-color: aqua;
+    background-color: pink;
     color: white;
 }
 
