@@ -110,4 +110,22 @@ nav{
         flex: 100%
     }
 
+#first-item {
+    position: relative;
+    top: -20px;
+    left: -20px;
+}
+
+#second-item {
+    position: relative;
+    top: -40px;
+    left: -40px;
+}
+
+#third-item {
+    position: relative;
+    top: -60px;
+    left: -60px;
+}
+
 }
