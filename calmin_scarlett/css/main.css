@@ -50,6 +50,7 @@ img {
   flex-basis: 100px;
   flex-grow: 0;
   flex-shrink: 0;
+  padding: 5px;
 }
 
 nav{
@@ -103,6 +104,33 @@ h3{
   margin: 0px;
 }
 
+.zrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.zrow-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+
+.zrow-img {
+  min-width: 100px;
+  flex: 25%;
+  padding: 20px
+}
+
+.zrow-text {
+  flex: 75%;
+  padding-top: 20px;
+}
+
+.zrow-reverse .zrow-text {
+  padding-left: 20px;
+}
+
+
 @media only screen and (min-width: 601px) and (max-width: 900px) { /*tablet view */
   .main-styling {
     flex-direction: row;
@@ -143,6 +171,19 @@ h3{
   .nav-links li {
     /* background-color: aqua; */
     flex: 100%
+  }
+
+  .zrow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .zrow-reverse {
+    display: flex;
+    flex-direction: column;
+  }
+  .zrow .zrow-text {
+    padding-left: 20px;
   }
 }
 
