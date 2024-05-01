@@ -1,6 +1,6 @@
 body {
     box-sizing: border-box;
-    background-color: lightcoral;
+    background-color: beige;
 }
 
 .bordered-div {
@@ -45,13 +45,13 @@ img {
 }
 
 
-.nav-links li {
+/*.nav-links li {
 
 background-color: aqua;
 flex-basis: 150px;
 flex-grow: 1;
 flex-shrink: 1;
-}
+}*/
 nav {
     width: 100%;
     display: flex;
@@ -98,6 +98,23 @@ h3{
     margin: 0px;
 
 }
+
+.zrow {
+display: flex;
+flex-direction: row;    
+}
+.zrow-img{
+min-width: 100px;
+flex: 25%;
+}
+.zrow text{
+    flex: 75%;
+}
+
+
+
+
+
 @media only screen and (min-width:601px) and (max-width: 900px) {
     .main-styling {
         flex-direction: row;
