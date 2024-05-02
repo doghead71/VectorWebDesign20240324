@@ -71,6 +71,28 @@ nav{
     color: white;
 }
 
+
+.zrow{
+    display: flex;
+    flex-direction: row;
+}
+
+.zrow-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.zrow-img {
+    min-width: 100px;
+    flex: 25%;
+    padding: 15px;
+}
+
+.zrow-text {
+    flex: 75%;
+}
+
+
 @media only screen and (max-width: 600px) {
 
     /*phone view*/
