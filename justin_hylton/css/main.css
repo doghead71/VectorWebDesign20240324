@@ -1,5 +1,10 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(238, 238, 238);
+}
+
 .bordered-div {
-    border: 5px double #e43838;
+    border: 5px double #387de4;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
@@ -23,6 +28,139 @@
 .main-styling #main-panel {
     flex: 50%;
 }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    flex-basis: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    padding: 10px 15px;
+    display: inline-block;
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-links a:hover {
+    background-color: rgb(136, 227, 255);
+    color: rgb(255, 0, 0);
+}
+
+.nav-links a.current {
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+
+.zrow{
+    display: flex;
+    flex-direction: row;
+}
+
+.zrow-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.zrow-img {
+    min-width: 100px;
+    flex: 25%;
+    padding: 15px;
+}
+
+.zrow-text {
+    flex: 75%;
+}
+
+
+
+
+
+.frow1{
+    display: flex;
+    flex-direction: row;
+}
+
+.frow1-img {
+    min-width: 100px;
+    flex: 25%;
+}
+
+.frow-text{
+    flex: 75%;
+}
+
+
+
+
+
+.card1{
+    display: flex;
+    flex-direction: row;
+}
+
+.card1-image{
+    min-width: 50px;
+    flex: 25%;
+}
+
+.card.text{
+ flex: 75%;   
+}
+
+.card-container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.container{
+    flex: 100%;
+    height: 100px;
+}
+
+.box-img{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    white-space: nowrap;
+    
+}
+
+
+
+
+
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {
     .main-styling {
