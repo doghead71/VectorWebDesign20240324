@@ -44,6 +44,7 @@ img {
     flex-basis: 100px;
     flex-grow: 0;
     flex-shrink: 0;
+    padding: 5px;
 }
 
 nav{
@@ -55,6 +56,13 @@ nav{
     display: flex;
     list-style: none;
     flex-wrap: wrap;
+}
+
+.nav-links li{
+    background-color: aqua;
+    flex-basis: 15px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .nav-links a{
@@ -77,6 +85,63 @@ color: whitesmoke;
     color: whitesmoke;
     
     }
+.zrow{
+    display: flex;
+    flex-direction: row;
+}   
+.zrow-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+} 
+.zrow-img {
+min-width: 100px;
+flex: 25%;
+padding: 20px;
+}
+
+.zrow-text{
+padding: 10px;
+flex: 75%;
+padding-top: 20px;
+}
+.zrow-reverse .zrow-text{
+    padding-left: 20px;
+}
+.split-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+}
+
+.Frow{
+    display: flex;
+    flex-direction: row;
+}
+.Frow-img {
+    min-width: 100px;
+    flex: 25%;
+    padding: 20px;
+    }
+    
+    .Frow-text{
+    padding: 10px;
+    flex: 75%;
+    padding-top: 20px;
+    }
+
+/* Left panel */
+.left-panel {
+    flex: 1; /* Take up remaining space */
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+}
+
+/* Right panel */
+.right-panel {
+    flex: 1; /* Take up remaining space */
+    background-color: #e0e0e0; /* Light gray background */
+    padding: 20px;
+}
+
 .all_caps{
     text-transform: uppercase;
 }    
@@ -101,6 +166,20 @@ h4 {
     .main-content #main-panel {
         flex: 100%;
     }
+    .nav-links li{
+        flex: 100%;
+    }
+    .zrow{
+        display: flex;
+        flex-direction: column;
+    }
+    .zrow{
+        display: flex;
+        flex-direction: column;
+        .zrow-reverse .zrow-text{
+            padding-left: 20px;
+        }
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {
@@ -120,7 +199,6 @@ h4 {
         flex: 100%;
     }
 
-}
 
 .bordered-div {
     border: 5px double #000;
@@ -133,7 +211,7 @@ h4 {
     outline: 2px solid blue;
     /* Outline */
 }
-
+}
 /*.main-content {
     border: 10px solid black;
     display: flex;
