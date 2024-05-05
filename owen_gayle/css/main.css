@@ -114,12 +114,16 @@ h3{
 .zrow-img {
     min-width: 100px;
     flex: 25%;
-    padding:20px ;
+    padding: 20px;
 }
 
 .zrow-text {
     flex: 75%;
     padding-top: 20px;
+}
+
+.zrow-reverse .zrow-text {
+    padding-left: 20px;
 }
 
 
