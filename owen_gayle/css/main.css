@@ -164,6 +164,21 @@ h3{
 
     }
 
+    .zrow {
+        display: flex;
+        flex-direction: column;
+    }
+    .zrow-reverse {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .zrow-text {
+        padding-left: 20px;
+    }
+    
+
+
 }
 
 
