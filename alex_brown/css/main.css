@@ -81,7 +81,7 @@ nav{
   text-decoration: none;
   font-weight: bold;
   background-color: #C40C0C;
-  flex: 1;
+  
 }
 
 .nav-links a:hover {
@@ -114,13 +114,25 @@ h3{
 .zrow-img{
   min-width: 100px;
   flex: 25%;
+  padding: 20px;
 
 }
 
 .zrow-text{
   flex: 75%;
+  padding-top: 20px;
+}
+
+
+.hamburger{
+  font-size: 60px;
+  cursor: pointer;
+  display: none;
+
+
 }
  
+
 
 
  @media only screen and (min-width: 601px) and (max-width: 900px) {       /*Tablet View */
@@ -166,7 +178,7 @@ h3{
   .nav-links{
     display: flex;
     list-style:none;
-    f
+    
   }
   
   .nav-links a {
@@ -174,17 +186,8 @@ h3{
     display: inline-block;
   }
 
-
 }
 
-
-/*ZLayout*/
-
-#zlayout{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start ;
-}
 
 
 
