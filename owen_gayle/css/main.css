@@ -100,14 +100,16 @@ h3{
 }
 
 .zrow {
-display: flex;
-flex-direction: row;    
+    display: flex;
+    flex-direction: row;    
 }
-.zrow-img{
-min-width: 100px;
-flex: 25%;
+
+.zrow-img {
+    min-width: 100px;
+    flex: 25%;
 }
-.zrow text{
+
+.zrow-text {
     flex: 75%;
 }
 
