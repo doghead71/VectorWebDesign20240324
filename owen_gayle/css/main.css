@@ -104,6 +104,12 @@ h3{
     flex-direction: row;    
 }
 
+.zrow-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
 .zrow-img {
     min-width: 100px;
     flex: 25%;
