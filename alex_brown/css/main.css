@@ -1,5 +1,6 @@
 body {
   box-sizing: border-box;
+  background-color: #FFFBDA;
 }
 
 .bordered-div {
@@ -37,7 +38,93 @@ body {
   flex: 50%;
 }
 
-@media only screen and (min-width: 601px) and (max-width: 900px) {
+img{
+  width:100%;
+  height: auto;
+}
+
+
+.logo{
+  width: 100px;
+  height: 100px;
+  display:inline-block;
+  flex-basis: 100px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links{
+  display: inline-flex;
+  list-style:none;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+ height: auto;
+  
+}
+
+.nav-links li {
+  background-color: #C40C0C;
+  flex-basis:40px;
+  flex-grow:1;
+  flex-shrink: 1;
+}
+
+.nav-links a {
+  padding: 10px 15px 10px 0px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #C40C0C;
+  flex: 1;
+}
+
+.nav-links a:hover {
+  background-color: #FFC100;
+  color:white;
+}
+
+.nav-links a.current{
+  background-color:#FF6500;
+  color: white;
+}
+
+.all_caps{
+  text-transform:uppercase;
+}
+h4{
+  margin: 0px 5px 0px;
+}
+
+h3{
+  margin: 0px;
+}
+
+.zrow{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.zrow-img{
+  min-width: 100px;
+  flex: 25%;
+
+}
+
+.zrow-text{
+  flex: 75%;
+}
+ 
+
+
+ @media only screen and (min-width: 601px) and (max-width: 900px) {       /*Tablet View */
+ 
   .main-content {
     flex-direction: row;
     flex-wrap: wrap;
@@ -53,7 +140,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {    /*Phone View */
   
     .main-content {
     flex-direction: column;
@@ -69,4 +156,35 @@ body {
   .main-content #main-panel {
     flex: 100%;
   }
+  
+  nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-links{
+    display: flex;
+    list-style:none;
+    f
+  }
+  
+  .nav-links a {
+    padding: 20px 15px;
+    display: inline-block;
+  }
+
+
 }
+
+
+/*ZLayout*/
+
+#zlayout{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start ;
+}
+
+
+
