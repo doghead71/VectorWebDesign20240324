@@ -1,0 +1,50 @@
+body {
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+
+.bordered-div {
+    border: 5px solid blue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+
+.logo {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    flex-basis: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 5px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    
+}
+.nav-links a {
+padding: 20px 15px;
+display: inline-block;
+color: black;
+background-color: lightskyblue;
+}
+
+.nav-links a:hover {
+    background-color: gray;
+    color: white;
+}
+.nav-links a.current {
+    background-color: black;
+    color: white;
+}

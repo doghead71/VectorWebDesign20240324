@@ -1,23 +1,25 @@
 body {
     box-sizing: border-box;
+    background-color: lightgray;
 }
 
 .bordered-div {
-    border: 5px double blue;
+    border: 5px solid blue;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    
 }
 
 .main-styling{
 
-    border: 2px solid purple;
+    border: 5px solid purple;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
-    border-radius: 15px;
-    box-sizing: border-box; 
+    align-items: center;
+    border-radius: 5px;
+    height: 200px; 
 
 }
 
@@ -38,6 +40,10 @@ img {
     width: 100px;
     height: auto;
     display: inline-block;
+    flex-basis: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 5px;
 }
 nav{
     width: 100%;
@@ -49,11 +55,76 @@ nav{
     display: flex;
     list-style: none;
     flex-wrap: wrap;
+    
 }
 .nav-links a {
 padding: 20px 15px;
 display: inline-block;
+color: black;
+background-color: aqua;
 }
+
+.nav-links a:hover {
+    background-color: purple;
+    color: white;
+}
+.nav-links a.current {
+    background-color: green;
+    color: white;
+}
+
+.all_caps{
+    text-transform: uppercase;
+
+}
+
+h4 {
+    margin: 0px;
+    margin-bottom: 5px;
+}
+h3{
+    margin: 0px;
+}
+
+.zrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.zrow-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.zrow-img {
+    min-width: 100px;
+    flex: 25%;
+    padding: 20px;
+}
+
+.zrow-text {
+    flex: 75%;
+    padding-top: 20px;
+}
+.zrow-reverse .zrow-text {
+    padding-left: 20px;
+}
+
+.frow1 {
+    display: flex;
+    flex-direction: row;
+}
+.frow1-img {
+    min-width: 100px;
+    flex: 25%;
+    padding: 20px;
+}
+.frow-text {
+    flex: 95%;
+    padding-left: 30px;
+}
+
+
 
 
 @media only screen and (min-width: 601px) and (max-width:900px) {
@@ -70,6 +141,9 @@ display: inline-block;
     .main-styling #main-panel{
         flex: 100%;
     }
+    .nav-links li {
+        flex: 1 1 33.33%;
+    }
 }
  @media only screen and (max-width: 600px) {
     .main-styling {
@@ -84,6 +158,23 @@ display: inline-block;
     .main-styling #main-panel {
     flex: 100%;
 }
+.nav-links li {
+    flex: 100%;
+}
+
+
+.zrow {
+    display: flex;
+    flex-direction: column;
+}
+.zrow-reverse {
+    display: flex;
+    flex-direction: column;
+}
+.zrow .zrow-text {
+    padding-left: 20px;
+}
  }
+ 
     
  
