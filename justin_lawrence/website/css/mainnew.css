@@ -1,11 +1,7 @@
-body {
-    box-sizing: border-box;
-    background-color: lightgray;
+img {
+    width: 100%;
+    height: auto;
 }
-
-
-
-
 .logo {
     width: 100px;
     height: auto;
@@ -31,14 +27,14 @@ nav{
 padding: 20px 15px;
 display: inline-block;
 color: black;
-background-color: lightskyblue;
+background-color: aqua;
 }
 
 .nav-links a:hover {
-    background-color: gray;
+    background-color: purple;
     color: white;
 }
 .nav-links a.current {
-    background-color: black;
+    background-color: green;
     color: white;
 }
