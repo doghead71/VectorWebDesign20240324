@@ -1,10 +1,10 @@
-body{
+body {
     box-sizing: border-box;
-    background-color: rgb(238, 238, 238);
+    background: rgb(255, 235, 238);
 }
 
 .bordered-div {
-    border: 5px double #387de4;
+    border: 5px double rgb(59, 134, 93);
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
@@ -58,19 +58,19 @@ nav {
 .nav-links a {
     padding: 10px 15px;
     display: inline-block;
-    color: yellow;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .nav-links a:hover {
-    background-color: rgb(136, 227, 255);
-    color: rgb(255, 0, 0);
+    background-color: rgb(59, 134, 93);
+    color: rgb(255, 255, 255);
 }
 
 .nav-links a.current {
-    background-color: red;
+    background-color: rgb(101, 27, 116);
     color: white;
 }
 
@@ -79,12 +79,12 @@ nav {
 
 
 
-.zrow{
+.zrow {
     display: flex;
     flex-direction: row;
 }
 
-.zrow-reverse{
+.zrow-reverse {
     display: flex;
     flex-direction: row-reverse;
 }
@@ -103,7 +103,9 @@ nav {
 
 
 
-.frow1{
+
+
+.frow1 {
     display: flex;
     flex-direction: row;
 }
@@ -113,7 +115,7 @@ nav {
     flex: 25%;
 }
 
-.frow-text{
+.frow-text {
     flex: 75%;
 }
 
@@ -121,41 +123,73 @@ nav {
 
 
 
-.card1{
+
+
+
+
+
+
+
+
+.box-img0{
     display: flex;
-    flex-direction: row;
+    max-width: 800px;
 }
 
-.card1-image{
-    min-width: 50px;
-    flex: 25%;
-}
-
-.card.text{
- flex: 75%;   
-}
-
-.card-container2{
+.box-container {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-
-
-
-
-.container{
-    flex: 100%;
-    height: 100px;
-}
-
-.box-img{
-    display: inline-block;
-    width: auto;
+.box-img {
+    max-width: 400px;
     height: auto;
-    white-space: nowrap;
-    
 }
+
+.box-container2 {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.btext-container {
+    flex: 1; /* Each container takes equal space */
+    border: 1px solid black;
+    padding: 10px; /*Space around content border*/
+    margin: 5px;
+}
+
+.box-img3{
+    width: 100px;
+    height: auto;
+    border: 1px solid black;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+.split-screen {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-side, .right-side {
+    flex: 1;
+    padding: 15px;
+  }
+  
+  .left-side {
+    background-color: #f1f1f1;
+  }
+  
+  .right-side {
+    background-color: #ddd;
+  }
+
 
 
 
