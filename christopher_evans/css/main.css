@@ -211,6 +211,14 @@ body, html {
     padding: 20px;
 }
 
+.hamburger {
+    font-size: 60px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
 
 @media only screen and (max-width: 600px) {
 
@@ -230,7 +238,16 @@ body, html {
         flex: 100%
     }
 
+.hamburger {
+    display: block;
 }
+
+.nav-links {
+    display: block;
+}
+
+}
+
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
 
