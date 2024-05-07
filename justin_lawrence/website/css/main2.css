@@ -3,13 +3,7 @@ body {
     background-color: lightgray;
 }
 
-.bordered-div {
-    border: 5px solid blue;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    
-}
+
 
 
 .logo {
