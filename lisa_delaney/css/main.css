@@ -97,7 +97,7 @@ nav {
 
 .zdesign-img {
     flex: 25%;
-    max-height: 25%;
+    
     
 }
 
@@ -129,8 +129,9 @@ nav {
 }
 
 .splitScreen-img { 
-    min-width: 100px;
-    flex: 25%;
+    height: 25%;
+    display: flex;
+    flex: 100%;
     padding: 50px;
 }
 
@@ -140,15 +141,21 @@ nav {
 
 .boxdesign { 
     display: flex;
+    flex-direction: column;
     flex-direction: row;
-    flex: 100%  
 }
 
 .boxdesign-img { 
     width: 100%;
     padding: 20px;
     padding-bottom: 50px;
-    display: flex;
+    flex-direction: column;
+}
+
+.asymmetrical col-img {
+    width: 100%;  
+    max-height: 50%;
+
 }
 
 
@@ -179,10 +186,15 @@ nav {
 }
 
 .asymmetrical-img {
-    width: 100px;
+    width: 50%;  
+    height: 50%;
+    flex-direction:column;
     
-
 }
+.asymmetrical-text {
+    flex: 75%;
+}
+
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
     .main-content {
