@@ -173,7 +173,7 @@ h3{
         flex-direction: column;
     }
 
-    .zrow-text {
+    .zrow-reverse .zrow-text {
         padding-left: 20px;
     }
     
