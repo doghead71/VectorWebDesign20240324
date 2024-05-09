@@ -42,7 +42,7 @@
 
 body {
     box-sizing: border-box;
-    background: rgb(255, 220, 245)
+    background: rgb(255, 255, 255)
 }
 
 
@@ -114,7 +114,7 @@ nav {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(237, 190, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
 
