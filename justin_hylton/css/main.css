@@ -29,6 +29,13 @@
     color: rgb(0, 0, 0);
 }
 
+#headertext-purple {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(101, 27, 116);
+    padding-left: 15px;
+}
+
 
 
 body {
@@ -151,9 +158,9 @@ nav {
     padding-left: 20px;
 }
 
-#bullet-points{
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bolder;
+#bullet-points {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
 
@@ -208,9 +215,11 @@ font-weight: bolder;
 }
 
 .btext-container {
-    flex: 1; /* Each container takes equal space */
+    flex: 1;
+    /* Each container takes equal space */
     border: 1px solid black;
-    padding: 10px;/*Space around content border*/
+    padding: 10px;
+    /*Space around content border*/
     margin: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -243,7 +252,7 @@ font-weight: bolder;
 
 .left-side {
     background-color: #f1f1f1;
-   font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .right-side {
@@ -251,12 +260,12 @@ font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#order-list{
-    margin-top: 10px; 
-    margin-bottom: 10px; 
+#order-list {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-ol li{
+ol li {
     margin-bottom: 5px;
 }
 
@@ -331,15 +340,15 @@ ol li{
 
 
 /*footer*/
-#footer{
+#footer {
     text-align: center;
     padding: 10px;
 }
 
-#foot-content{ 
+#foot-content {
     display: flex;
     flex-direction: row;
-} 
+}
 
 
 
@@ -386,15 +395,15 @@ ol li{
         display: block;
     }
 
-    
-     /*nav links*/
-    .nav-links{
+
+    /*nav links*/
+    .nav-links {
         display: none;
     }
 
 
 
-     /*symmetricallayout*/
+    /*symmetricallayout*/
     .a-container {
         flex-direction: column;
     }
