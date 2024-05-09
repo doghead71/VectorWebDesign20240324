@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <title> Lisa Delaney-Delavi Spa </title>
     <link rel="stylesheet" href="./css/main.css" type="text/css">
-</head>
+    
+</head> 
 
 <body>
+    <nav id="nav-bar">
+        <div id="logo-container" class="bordered-div logo">
+            <img src="./images/star.png" alt="Lisa Delaney logo"> l
+        </div>
+
+</body>
