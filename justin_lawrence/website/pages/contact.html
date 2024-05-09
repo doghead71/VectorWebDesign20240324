@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Box Layout</title>
+        <title>Oasis Spa</title>
         <link rel="stylesheet" href="../css/mainnew.css" type="text/css">
     </head>
     <body>
@@ -13,14 +13,35 @@
                 <img src="../image/depositphotos_138223718-stock-photo-spa-still-life.jpg" alt="Justin Lawrence Logo">
             </div>
             <ul class="nav-links">
-                <li><a href="../newindex.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="./services.html">Services</a></li>
                 <li><a href="./videogallery.html">Video Gallery</a></li>
                 <li><a href="./blog.html">Blog</a></li>
                 <li><a href="#" class="current">Contact</a></li>
-                <li><a href="./about.html">About</a></li>
+                <li><a href="./about.html">About Us</a></li>
 
             </ul>
         </nav>
+
+        <div class="container">
+            <h1>Contact Us</h1>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
     </body>
     </html>
