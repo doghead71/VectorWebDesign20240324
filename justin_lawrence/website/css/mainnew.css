@@ -294,7 +294,7 @@ body {  /*THIS CONTROLS THE BACKGROUND COLOR ON EVERY DAMN PAGE*/
 }
 /*End of Services page*/
 
-/*this is for Video gallery Page*/
+/*this is for photo gallery Page*/
 
 .prow {
     display: flex;
@@ -319,7 +319,7 @@ body {  /*THIS CONTROLS THE BACKGROUND COLOR ON EVERY DAMN PAGE*/
 .prow-reverse .prow-text {
     padding-left: 20px;
 }
-/*this ends video gallery page*/
+/*this ends photo gallery page*/
 
 
 
