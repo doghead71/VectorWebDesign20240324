@@ -267,8 +267,7 @@ nav {
     height: 100vh;
 }
 
-.left-side,
-.right-side {
+.left-side, .right-side {
     flex: 1;
     padding: 15px;
 }
@@ -406,8 +405,10 @@ ol li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 }
+
+
+
 
 
 /*mobile view*/
@@ -452,7 +453,7 @@ ol li {
     }
 
 
-}
+
 
     /*zlayout*/
 .zrow {
@@ -475,5 +476,7 @@ ol li {
     display: flex;
     flex-direction: column;
     height: 100vh;
+
+}
 
 }
