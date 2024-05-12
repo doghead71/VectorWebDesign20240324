@@ -296,30 +296,117 @@ body {  /*THIS CONTROLS THE BACKGROUND COLOR ON EVERY DAMN PAGE*/
 
 /*this is for photo gallery Page*/
 
-.prow {
-    display: flex;
-    flex-direction: row;
-}
-
-.prow-reverse {
-    display: flex;
-    flex-direction: row-reverse;
-    
-}
-.prow-img {
-    min-width: 100px;
-    flex: 25%;
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
     padding: 20px;
 }
 
-.prow-text {
-    flex: 75%;
-    padding-top: 20px;
+.img-container {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.prow-reverse .prow-text {
-    padding-left: 20px;
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
 }
+
+.img-container img:hover {
+    transform: scale(1.1);
+}
+
+
 /*this ends photo gallery page*/
+
+/*Reviews page starts here*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.testimonials {
+    padding: 40px 0;
+    background: #007bff;
+    color: #333;
+    text-align: center;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.border {
+    width: 160px;
+    height: 5px;
+    background: purple;
+    margin: 26px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.col {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+
+}
+
+.testimonial {
+    background: #fff;
+    padding: 30px;
+
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+
+}
+
+.stars {
+    color: #6ab04c;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:960px) {
+    .col{
+        flex: 100%;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .col{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+/*reviews page end here*/
 
 
 
