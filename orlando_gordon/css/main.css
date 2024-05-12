@@ -151,6 +151,12 @@ h3 {
 h4 {
     margin: 0;
 }
+
+.hamburger{
+    font-size: 60px;
+    cursor: pointer;
+    display: none;
+}
 @media only screen and (max-width: 600px) {
     .main-content {
         flex-direction: column;
@@ -179,6 +185,12 @@ h4 {
         .zrow-reverse .zrow-text{
             padding-left: 20px;
         }
+    }
+    .hamburger{
+        display: block;
+    }
+    .nav-links{
+        display: none;
     }
 }
 

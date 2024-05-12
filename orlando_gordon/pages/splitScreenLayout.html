@@ -14,7 +14,8 @@
         <div id="logo_container" class="bordered-div logo">
             <img src="../images/logo.jpg" alt="Orlando Gordon Logo">
         </div>
-        <ul class="nav-links">
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <ul id="menu" class="nav-links">
             <li>
                 <a href="../index.html">Home</a>
             </li>
@@ -38,17 +39,24 @@
             </li>
         </ul>
     </nav>
+    <div class="split-container">
+        <div class="left-panel">
+            <!-- Content for the left panel -->
+            <h2>Left Panel</h2>
+            <p>This is the content of the left panel.</p>
+        </div>
+        <div class="right-panel">
+            <!-- Content for the right panel -->
+            <h2>Right Panel</h2>
+            <p>This is the content of the right panel.</p>
+        </div>
+    </div>
+    <footer id="footer">
+        <div>
+            <p>&copy; 2024 Orlando Gordon</p>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
 </body>
-<div class="split-container">
-    <div class="left-panel">
-        <!-- Content for the left panel -->
-        <h2>Left Panel</h2>
-        <p>This is the content of the left panel.</p>
-    </div>
-    <div class="right-panel">
-        <!-- Content for the right panel -->
-        <h2>Right Panel</h2>
-        <p>This is the content of the right panel.</p>
-    </div>
-</div>
+
 </html>
