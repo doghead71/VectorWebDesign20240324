@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+  /*  box-sizing: border-box;  */
   }
   
   /* Basic Styling */
@@ -12,7 +12,7 @@
   
   .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 ;
     padding: 10px;
   }
   
@@ -26,7 +26,21 @@
     width: 150px;
     height: auto;
 }
-  
+
+.images-group {
+  display: flex;
+  justify-content: space-between;
+}
+.images-group img {
+  width: 200px; 
+  height: auto;
+  margin-right: 20px; 
+}
+
+.images-group h3 {
+  margin-right: 20px; 
+}
+
   .logo {
     width: 150px;
     height: auto;
