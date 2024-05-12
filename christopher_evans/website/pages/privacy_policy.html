@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Chris Arm Systems</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../images/CAS Logo.jpg" alt="Company Logo">
+            <h1>Chris Arm Systems Security Services LTD</h1>
+        </div>
+        <button type="button" class="menu-toggle">Menu</button>
+        <nav>
+                <ul id="menu" class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+                <li><a href="../pages/news.html">News</a></li>
+                <li><a href="../pages/photo_gallery.html">Photo Gallery</a></li>
+                <li><a href="../pages/reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="privacy-policy">
+        <h2>Privacy Policy</h2>
+        <p>Chris Arm Systems Security Services LTD ("we") are committed to protecting the privacy of our users. This Privacy Policy outlines how we collect, use, and protect your personal information when you visit our website.</p>
+
+        <h3>Information We Collect</h3>
+        <p>We may collect personal information, such as your name, email address, and phone number, when you voluntarily submit it through our website's contact form or other means.</p>
+
+        <h3>How We Use Your Information</h3>
+        <p>We may use the information we collect to respond to your inquiries, provide customer support, improve our services, and send you promotional communications.</p>
+
+        <h3>Sharing Your Information</h3>
+        <p>We do not sell, trade, or rent your personal information to third parties. However, we may share your information with trusted service providers who assist us in operating our website or conducting our business.</p>
+
+        <h3>Security</h3>
+        <p>We take reasonable measures to protect the confidentiality and security of your personal information. However, please be aware that no method of transmission over the internet or electronic storage is 100% secure.</p>
+
+        <h3>Changes to This Privacy Policy</h3>
+        <p>We reserve the right to update or change our Privacy Policy at any time. Any changes will be posted on this page, and the revised date will be updated accordingly.</p>
+
+        <h3>Contact Us</h3>
+        <p>If you have any questions or concerns about our Privacy Policy, please contact us at privacy@chrisarmsystems.com.</p>
+    </section>
+
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2024 Chris Arm Systems Security Services. All rights reserved.</p>
+            <p><a href="./privacy_policy.html">Privacy Policy</a></p>
+        </div>
+        <div class="developer">
+            <p>Developed by: Christopher Evans</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for toggling mobile menu -->
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', () => {
+            // Toggle the menu on small screens (phones)
+            if (window.innerWidth <= 576) {
+                nav.classList.toggle('show');
+            }
+        });
+
+        // Toggle menu on tablet/desktop when screen is resized to small
+        window.addEventListener('resize', () => {
+            if (window.innerWidth <= 576) {
+                nav.classList.remove('show');
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -36,7 +36,7 @@
     <footer>
         <div class="copyright">
             <p>&copy; 2024 Chris Arm Systems Security Services. All rights reserved.</p>
-            <p>Privacy Policy</p>
+            <p><a href="./pages/privacy_policy.html">Privacy Policy - Click to Access</a></p>
         </div>
         <div class="developer">
             <p>Developed by: Christopher Evans</p>
@@ -48,13 +48,13 @@
     const nav = document.querySelector('nav ul');
 
     menuToggle.addEventListener('click', () => {
-        // Toggle the menu on small screens (phones)
+        // To Toggle the menu on small screens (phones)
         if (window.innerWidth <= 576) {
             nav.classList.toggle('show');
         }
     });
 
-    // Toggle menu on tablet/desktop when screen is resized to small
+    // To Toggle menu on tablet/desktop when screen is resized to small
     window.addEventListener('resize', () => {
         if (window.innerWidth <= 576) {
             nav.classList.remove('show');
