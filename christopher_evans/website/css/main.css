@@ -180,3 +180,37 @@ footer p {
     font-size: 1rem;
     color: #666;
 }
+
+.news-article {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.news-article img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.news-article h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.news-article p {
+    margin-bottom: 20px;
+}
+
+.news-article a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
