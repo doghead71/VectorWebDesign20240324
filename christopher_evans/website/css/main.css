@@ -72,6 +72,8 @@ nav ul li a {
 
     .menu-toggle {
         display: block; /* Show the menu toggle button for tablet and phone views */
+        position: relative; /* Change position to relative */
+        z-index: 999; /* Ensure the toggle button stays on top */
     }
 
     nav ul {
@@ -84,6 +86,7 @@ nav ul li a {
         background-color: #333;
         padding: 1rem 0;
         display: none;
+        z-index: 99; /* Ensure the menu stays above other content */
     }
 
     nav ul.show {

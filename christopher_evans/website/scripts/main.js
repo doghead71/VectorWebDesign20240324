@@ -1,21 +1,15 @@
-// JavaScript for toggling mobile and tablet menu
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('nav ul');
 
 menuToggle.addEventListener('click', () => {
-    // Toggle the menu on mobile screens (phones)
-    if (window.innerWidth <= 576) {
-        nav.classList.toggle('show');
-    } else {
-        // Toggle the menu on tablet screens
-        nav.classList.toggle('tablet-show');
-    }
+    nav.classList.toggle('show');
 });
 
-// Toggle menu on tablet when screen is resized to small
+// Toggle menu on tablet/desktop when screen is resized to small
 window.addEventListener('resize', () => {
-    if (window.innerWidth <= 576) {
-        nav.classList.remove('tablet-show');
+    if (window.innerWidth > 576) {
+        // Remove the 'show' class to hide the menu on larger screens
+        nav.classList.remove('show');
     }
 });
 
