@@ -128,3 +128,55 @@ footer {
 footer p {
     margin-bottom: 0.5rem;
 }
+
+/* Split screen layout */
+.split-container {
+    display: flex;
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* CSS for card grid layout */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.service {
+    padding: 20px;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+}
+
+.service h3 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.service p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+}
