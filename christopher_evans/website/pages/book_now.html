@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Free Consultation - Chris Arm Systems</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <section class="hero">
+        <h2>Book a Free Consultation</h2>
+        <p>Please fill out the form below to request a free consultation.</p>
+    </section>
+
+    <section class="consultation-form">
+        <form id="consultationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="service">Select Service:</label>
+            <select id="service" name="service" required>
+                <option value="">Select a service...</option>
+                <option value="Vehicle Tracking">Vehicle Tracking</option>
+                <option value="Home Intrusion Alarm Systems">Home Intrusion Alarm Systems</option>
+                <option value="Automatic Gate Controllers">Automatic Gate Controllers</option>
+                <option value="Garage Doors">Garage Doors</option>
+                <option value="Security Cameras">Security Cameras</option>
+                <option value="Personal Panic Button">Personal Panic Button</option>
+                <option value="Money Transportation Services">Money Transportation Services</option>
+                <option value="Security Guards">Security Guards</option>
+                <option value="Access Control Systems">Access Control Systems</option>
+                <option value="Fire Alarm Systems">Fire Alarm Systems</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="successMessage" class="success-message" style="display: none;">
+            Your request has been received. A representative will reach out to you within the next 24 hours.
+        </div>
+    </section>
+
+    <footer>
+        <!-- Your footer content -->
+    </footer>
+
+    <script>
+        // JavaScript code to handle form submission and success message display
+        document.getElementById("consultationForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            // Handle form submission here (e.g., send form data to server)
+            // For demonstration purposes, just display the success message
+            document.getElementById("consultationForm").reset(); // Reset form fields
+            document.getElementById("successMessage").style.display = "block"; // Display success message
+        });
+    </script>
+</body>
+
+</html>
