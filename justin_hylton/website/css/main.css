@@ -71,6 +71,64 @@ body {
 
 
 
+/*index irow images*/
+.irow{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.irow-img {
+    min-width: 100px;
+    flex: 25%;
+    padding: 15px;
+}
+
+.irow-text {
+    flex: 25%;
+}
+
+
+/*index images*/
+
+.in-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.in-item {
+    text-align: center;
+    flex: 1; /* Each item takes up equal space */
+    max-width: 50%; /* Set maximum width for larger screens */
+    margin-bottom: 20px; /* Add space between items */
+}
+
+.in-item img {
+    width: 100%; /* Make the images fill their container */
+    height: auto;
+    padding-left: 10px;
+}
+
+.in-title {
+    margin-top: 10px; /* Adjust spacing */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .bordered-div {
     border: 5px double rgb(59, 134, 93);
     padding: 10px;
@@ -405,6 +463,15 @@ ol li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+/*index row*/
+.irow {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 }
 
 
@@ -477,6 +544,25 @@ ol li {
     flex-direction: column;
     height: 100vh;
 
+}
+
+
+
+/*index row*/
+.irow {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*index images*/
+.in-container {
+    flex-direction: column; /* Switch to a column layout */
+}
+
+.in-item {
+    max-width: 100%; /* Allow items to take full width */
 }
 
 }
