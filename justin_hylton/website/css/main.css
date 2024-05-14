@@ -102,7 +102,7 @@ body {
 .in-item {
     text-align: center;
     flex: 1; /* Each item takes up equal space */
-    max-width: 50%; /* Set maximum width for larger screens */
+    max-width: 48%; /* Set maximum width for larger screens */
     margin-bottom: 20px; /* Add space between items */
 }
 
