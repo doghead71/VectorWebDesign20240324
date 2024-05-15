@@ -258,21 +258,7 @@ nav {
 
 
 
-/*flayout*/
-.frow1 {
-    display: flex;
-    flex-direction: row;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.frow1-img {
-    min-width: 100px;
-    flex: 25%;
-}
-
-.frow-text {
-    flex: 75%;
-}
+/*video*/
 
 
 
