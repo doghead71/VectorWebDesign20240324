@@ -1,4 +1,4 @@
-/* Reset default margin and padding */
+/* margin and padding */
 * {
     margin: 0;
     padding: 0;
@@ -17,20 +17,20 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 0.5rem; /* Decreased padding */
+    padding: 0.5rem; 
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo img {
-    width: 150px; /* Increased logo size for desktop */
+    width: 150px; 
     height: auto;
     margin-right: 10px;
 }
 
 .logo h1 {
-    font-size: 1.2rem; /* Decreased font size for the company name */
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -48,7 +48,7 @@ nav ul li {
 }
 
 nav ul li:last-child {
-    margin-right: 0; /* Remove margin from last item */
+    margin-right: 0; 
 }
 
 nav ul li a {
@@ -59,11 +59,11 @@ nav ul li a {
 /* Media queries for responsive design */
 @media (max-width: 768px) {
     .logo img {
-        width: 120px; /* Adjusted logo size for tablets */
+        width: 120px; /* logo size for tablets */
     }
 
     .logo h1 {
-        font-size: 1rem; /* Adjusted font size for tablets */
+        font-size: 1rem; /* font size for tablets */
     }
 
     nav ul li {
@@ -71,9 +71,9 @@ nav ul li a {
     }
 
     .menu-toggle {
-        display: block; /* Show the menu toggle button for tablet and phone views */
-        position: relative; /* Change position to relative */
-        z-index: 999; /* Ensure the toggle button stays on top */
+        display: block; /* menu toggle button for tablet and phone views */
+        position: relative; /* position changed to relative */
+        z-index: 999; /* toggle button stays on top */
     }
 
     nav ul {
@@ -86,21 +86,21 @@ nav ul li a {
         background-color: #333;
         padding: 1rem 0;
         display: none;
-        z-index: 99; /* Ensure the menu stays above other content */
+        z-index: 99; /* menu stays above other content */
     }
 
     nav ul.show {
-        display: flex; /* Show the navigation items when menu is toggled */
+        display: flex; /* to Show the navigation items when menu is toggled */
     }
 }
 
 @media (max-width: 576px) {
     .logo img {
-        width: 100px; /* Adjusted logo size for phones */
+        width: 100px; /* logo size for phones */
     }
 
     .logo h1 {
-        font-size: 0.8rem; /* Adjusted font size for phones */
+        font-size: 0.8rem; /* font size for phones */
     }
 }
 
@@ -149,7 +149,7 @@ footer p {
     padding: 20px;
 }
 
-/* CSS for card grid layout */
+/* card grid layout */
 .services {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
