@@ -3,6 +3,10 @@ body {
     background-color:whitesmoke;
 }
 
+.main-content {
+    align-items: center;
+}
+
 .bordered-div {
     border: 5px double #FF0000;
     padding: 10px;
