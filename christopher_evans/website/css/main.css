@@ -246,3 +246,63 @@ button {
     color: green;
     font-weight: bold;
 }
+
+/* styles for key team member */
+
+.meet-our-team {
+    margin-top: 20px;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.team-info h4 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.team-info p {
+    margin: 5px 0 0;
+}
+
+.spacer {
+    margin: 20px 0; /* Adjust the margin value as needed */
+}
+
+/* styles for review page */
+.reviews-section {
+    padding: 20px;
+}
+
+.review {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review-header img {
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.review-header h3 {
+    margin: 0;
+}
