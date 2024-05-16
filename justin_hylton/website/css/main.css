@@ -21,7 +21,7 @@
 
 
 
-#main-3ptext{
+#main-3ptext {
     font-family: Arial, Helvetica, sans-serif;
     color: #000000;
     font-weight: bold;
@@ -32,7 +32,7 @@
 
 
 
-#main-4ptext{
+#main-4ptext {
     font-family: Arial, Helvetica, sans-serif;
     color: #000000;
     font-style: italic;
@@ -72,7 +72,7 @@ body {
 
 
 /*index irow images*/
-.irow{
+.irow {
     display: flex;
     flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
@@ -96,24 +96,30 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line */
 }
 
 .in-item {
     text-align: center;
-    flex: 1; /* Each item takes up equal space */
-    max-width: 48%; /* Set maximum width for larger screens */
-    margin-bottom: 20px; /* Add space between items */
+    flex: 1;
+    /* Each item takes up equal space */
+    max-width: 48%;
+    /* Set maximum width for larger screens */
+    margin-bottom: 20px;
+    /* Add space between items */
 }
 
 .in-item img {
-    width: 100%; /* Make the images fill their container */
+    width: 100%;
+    /* Make the images fill their container */
     height: auto;
     padding-left: 10px;
 }
 
 .in-title {
-    margin-top: 10px; /* Adjust spacing */
+    margin-top: 10px;
+    /* Adjust spacing */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -165,18 +171,92 @@ img {
 
 /*logo*/
 .logo {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     display: inline-block;
-    flex-basis: 120px;
+    flex-basis: 140px;
     flex-grow: 0;
     flex-shrink: 0;
     cursor: pointer;
+    padding-bottom: 20px;
 }
 
 
 
-/*navigation bar options*/
+
+
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    text-align: center;
+    /* Center align the navigation links */
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    display: inline-block;
+    /* Display the links as inline blocks */
+    color: rgb(101, 27, 116);
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.navbar a:hover {
+    background-color: rgb(59, 134, 93);
+    color: rgb(255, 255, 255);
+}
+
+.nav-links a:hover {
+    background-color: rgb(59, 134, 93);
+    color: rgb(255, 255, 255);
+}
+
+.nav-links a.current {
+    background-color: rgb(101, 27, 116);
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*navigation bar options
 nav {
     width: 100%;
     display: flex;
@@ -195,20 +275,8 @@ nav {
     color: rgb(77, 31, 107);
     text-decoration: none;
     font-weight: bold;
-    background-color: rgb(255, 255, 255); /*rgb(237, 190, 255);*/
-    font-family: Arial, Helvetica, sans-serif;
-    /*border-radius: 20px;*/
-}
-
-.nav-links a:hover {
-    background-color: rgb(59, 134, 93);
-    color: rgb(255, 255, 255);
-}
-
-.nav-links a.current {
-    background-color: rgb(101, 27, 116);
-    color: rgb(255, 255, 255);
-}
+    background-color: rgb(255, 255, 255); /*rgb(237, 190, 255);
+    font-family: Arial,Helvetica,sans-serif;/*border-radius: 20px};*/
 
 
 
@@ -247,7 +315,7 @@ nav {
     font-weight: bolder;
 }
 
-#zmain-uhtext{
+#zmain-uhtext {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding-left: 20px;
@@ -311,7 +379,8 @@ nav {
     height: 100vh;
 }
 
-.left-side, .right-side {
+.left-side,
+.right-side {
     flex: 1;
     padding: 15px;
 }
@@ -436,27 +505,27 @@ ol li {
     }
 
 
-/*zlayout*/
-.zrow {
-    display: flex;
-    flex-direction: column-reverse;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    /*zlayout*/
+    .zrow {
+        display: flex;
+        flex-direction: column-reverse;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-.zrow-reverse {
-    display: flex;
-    flex-direction: column-reverse;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    .zrow-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
 
 
-/*index row*/
-.irow {
-    display: flex;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    /*index row*/
+    .irow {
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
 }
 
@@ -509,46 +578,48 @@ ol li {
 
 
     /*zlayout*/
-.zrow {
-    display: flex;
-    flex-direction: column-reverse;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    .zrow {
+        display: flex;
+        flex-direction: column-reverse;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-.zrow-reverse {
-    display: flex;
-    flex-direction: column-reverse;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-
-/*split screen layout*/
-.split-screen {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-
-}
+    .zrow-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
 
 
-/*index row*/
-.irow {
-    display: flex;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
+    /*split screen layout*/
+    .split-screen {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+
+    }
 
 
-/*index images*/
-.in-container {
-    flex-direction: column; /* Switch to a column layout */
-}
 
-.in-item {
-    max-width: 100%; /* Allow items to take full width */
-}
+    /*index row*/
+    .irow {
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    /*index images*/
+    .in-container {
+        flex-direction: column;
+        /* Switch to a column layout */
+    }
+
+    .in-item {
+        max-width: 100%;
+        /* Allow items to take full width */
+    }
 
 }
