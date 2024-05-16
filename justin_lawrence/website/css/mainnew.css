@@ -3,7 +3,7 @@ img {
     height: auto;
 }
 .logo {
-    width: 100px;
+    width: 140px;
     height: auto;
     display: inline-block;
     flex-basis: 100px;
@@ -292,6 +292,23 @@ body {  /*THIS CONTROLS THE BACKGROUND COLOR ON EVERY DAMN PAGE*/
     margin-top: 16px;
     color: #fff;
 }
+
+.s-heading {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.s-heading h1 {
+    font-size: 50px;
+    color: black;
+    margin-bottom: 25px;
+    position: relative;
+}
 /*End of Services page*/
 
 /*this is for photo gallery Page*/
@@ -318,6 +335,23 @@ body {  /*THIS CONTROLS THE BACKGROUND COLOR ON EVERY DAMN PAGE*/
 
 .img-container img:hover {
     transform: scale(1.1);
+}
+
+.p-heading {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.p-heading h1 {
+    font-size: 50px;
+    color: black;
+    margin-bottom: 25px;
+    position: relative;
 }
 
 
@@ -407,6 +441,43 @@ body {  /*THIS CONTROLS THE BACKGROUND COLOR ON EVERY DAMN PAGE*/
     }
 }
 /*reviews page end here*/
+
+
+/*home page start*/
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.service img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+/*end of home page*/
 
 
 
