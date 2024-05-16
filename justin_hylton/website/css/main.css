@@ -188,7 +188,7 @@ img {
 
 
 
-
+/*nav bar*/
 .navbar {
     overflow: hidden;
     background-color: #ffffff;
@@ -402,7 +402,15 @@ nav {
 }
 
 ol li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#faq-uhtext2{
+    text-decoration: underline;
+}
+
+#faq-uhtext{
+    text-decoration: underline;
 }
 
 
