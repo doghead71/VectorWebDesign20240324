@@ -108,7 +108,7 @@ body {
 .in-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-start; /*aligns a flexible container's lines with the cross-start edge of the flexbox's cross-axis*/
     flex-wrap: wrap;
     /* Allow items to wrap to the next line */
 }
@@ -116,7 +116,7 @@ body {
 .in-item {
     text-align: center;
     flex: 1; /* Each item takes up equal space */
-    max-width: 48%; /* Set maximum width for larger screens */
+    max-width: 48%; /* maximum width for image*/
     margin-bottom: 20px; /* Add space between items */
 }
 
@@ -153,8 +153,8 @@ img {
 .logo {
     width: 140px;
     height: 140px;
-    display: inline-block;
-    flex-basis: 140px;
+    display: inline-block; /* create boxes that automatically wrap text and other content*/
+    flex-basis: 140px; /*sets the initial size of a flex item before it grows or shrinks*/
     flex-grow: 0;
     flex-shrink: 0;
     cursor: pointer;
@@ -170,13 +170,13 @@ img {
 
 /*nav bar*/
 .navbar {
-    overflow: hidden;
+    overflow: hidden; /*occurs when an element's content does not fit entirely inside the element box*/
     background-color: #ffd8eb;
     text-align: center;/* Center align the navigation links */
 }
 
 .navbar ul {
-    list-style-type: none;
+    list-style-type: none; /*specifies the type of list-item marker in a list.*/
     padding: 0;
     margin: 0;
 }
@@ -197,22 +197,20 @@ img {
 }
 
 
-.navbar a:hover {
+.navbar a:hover {   /*a pseudo-class*/
     background-color: rgb(59, 134, 93);
     color: rgb(255, 255, 255);
 }
 
-.nav-links a:hover {
+.nav-links a:hover {     /*a pseudo-class*/
     background-color: rgb(59, 134, 93);
     color: rgb(255, 255, 255);
 }
 
-.nav-links a.current {
+.nav-links a.current {   /*a pseudo-class*/
     background-color: rgb(101, 27, 116);
     color: rgb(255, 255, 255);
 }
-
-
 
 
 
@@ -271,7 +269,7 @@ img {
 
 /*video*/
 .video-container {
-    width: 80%; /* Adjust the width as per your requirement */
+    width: 80%; /* Adjust the width*/
     margin: 0 auto; /* Center the video container */
     font-family: Arial, Helvetica, sans-serif;
 }
