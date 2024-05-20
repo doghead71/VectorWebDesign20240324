@@ -441,6 +441,9 @@ ol li {
 #footer {
     text-align: center;
     padding: 10px;
+    background-color: rgb(59, 134, 93);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
 }
 
 #foot-content {
