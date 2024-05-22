@@ -5,23 +5,46 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Split Screen</title>
-        <link rel="stylesheet" href=".../css/main.css" type="text/css">
+        <link rel="stylesheet" href="../main.css" type="text/css">
 </head>
 
 <body>
     <nav id="nav-bar">
         <div id="logo-container" class="bordered-div logo">
-            <img src="./images/logo.jpg" alt="Shanel Russell Logo">
+            <img src="..\images\shan.jpg" alt="Shanel Russell Logo">
         </div>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
+        <ul class="nav-links">`
+            <li><a href="/index.html">Home</a></li>
             <li><a href="./zLayout.html">Z layout</a></li>
             <li><a href="./fLayout.html">F Layout</a></li>
             <li><a href="./boxLayout.html"> Boxes Layout</a></li>
             <li><a href="./cardGridLayout.html"> Grid of Cards</a></li>
             <li><a href="./asymmetricalLayout.html"> Asymmetrical</a></li>
-            <li><a href="#">Split Screen</a></li>
+            <li><a href="#" class="current">Split Screen</a></li>
         </ul>
+        <div id="left" class="split-screen">
+            <div class="left-side">
+                <img src="../images/split 1.jpg" alt="Placeholder Image">
+                <h3>Tree</h3>
+                <p><b><span>Lorem ipsum</span></b> dolor sit amet, consectetur adipiscing
+                    elit. Sed fermentum, odio id aliquet pulvinar, mi elit scelerisque mauris, a gravida magna nunc sit amet
+                    arcu. Donec lacinia felis quis velit efficitur, sit amet blandit lectus aliquet. Aliquam ac odio ipsum.</p>
+            </div>
+        </div>
+        <div id="right" class="split-screen">
+            <div class="right-side">
+                <img src="../images/split 2.jpg" alt="Placeholder Image">
+                <h3>Tree</h3>
+                <p><b><span>Lorem ipsum</span></b> dolor sit amet, consectetur adipiscing
+                    elit. Sed fermentum, odio id aliquet pulvinar, mi elit scelerisque mauris, a gravida magna nunc sit amet
+                    arcu. Donec lacinia felis quis velit efficitur, sit amet blandit lectus aliquet. Aliquam ac odio ipsum.</p>
+            </div>
+        </div>
     </nav>
+    <footer id="footer">
+        <div id="footer-content">
+            <p>&copy; 2024 Shanel Russell</p>
+        </div>
+    </footer>
 </body>
 </html>

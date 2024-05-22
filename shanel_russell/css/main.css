@@ -1,26 +1,25 @@
 body {
     box-sizing: border-box;
+    background-color: rgb(216, 226, 240);
 }
 
 .bordered-div {
-    border: 5px double blueviolet;
+    border: 2px double rgb(22, 121, 171);
     padding: 10px;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 
 .main-content {
-    border: 2px solid #18e422;
+    border: 4px solid rgb(93, 235, 215);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* align-items: flex-start; */
-    /*height: 200px; */
+    align-items: flex-start;
+    height: auto;
     border-radius: 15px;
     box-sizing: border-box;
-
-
 }
 
 
@@ -45,6 +44,7 @@ img {
     flex-basis: 100px;
     flex-grow: 0;
     flex-shrink: 0;
+    padding: 5px;
 }
 
 nav {
@@ -54,23 +54,286 @@ nav {
 }
 
 .nav-links {
-    display: flex;
+    display: inline-flex;
     list-style: none;
     flex-wrap: wrap;
-    background-color: aquamarine;
+    justify-content: flex-start;
+    height: auto;
 }
-.nav-links a{
-    padding: 20px 15px;
+
+.nav-links li{
+    background-color:  rgb(10, 84, 148);
+    flex-basis: 80px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.nav-links a {
+    padding: 10px 15px 10px;
     display: inline-block;
-    color: bisque;
+    padding: 20px 15px;
+    
+    color: aqua;
     text-decoration: none;
     font-weight: bold;
 }
 
 .nav-links a:hover {
-    background-color: blanchedalmond;
-    color: beige;
+    background-color: rgb(93 235 215);
+    color: rgb(154, 200, 205);
 }
+
+.nav-links a:current {
+    background-color: rgb(14 70 163);
+    color: rgb(22, 121, 171);
+}
+
+.all_caps {
+    text-transform: uppercase;
+}
+
+h4 {
+    margin: 0px 5px 0px;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+.zrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.zrow-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.zrow-img {
+    min-width: 100px;
+    padding: 20px;
+    flex: 25%
+
+}
+.zrow-text {
+    flex: 75%;
+    padding-top: 10px;
+}
+
+.zrow-reverse .zrow-text {
+    padding-left: 20px;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.split-screen {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 100px); /* Adjusting height to account for header */
+}
+
+.left-side, .right-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-side {
+    background-color: #e0f7fa;
+}
+
+.right-side {
+    background-color: #e8f5e9;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 80%;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    margin: 10px 0 0;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: calc(33.333% - 40px); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.box p {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+ .asymmetrical-layout {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-content {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .asymmetrical-layout {
+        flex-direction: column;
+    }
+  
+    .sidebar, .main-content {
+        flex: initial;
+        width: 100%;
+    }
+}
+
+.flex-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-column img, .right-column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.left-column p, .right-column p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+
 @media only screen and (min-width: 601px) and (max-width: 900px) {
     .main-content {
         flex-direction: row;
@@ -95,6 +358,20 @@ nav {
         flex-wrap: wrap;
         align-items: normal;
         height: auto;
+    }
+
+    .nav-links li {
+        flex: 100%;
+    }
+
+    .zrow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .zrow-reverse {
+        display: flex;
+        flex-direction: column;
     }
 
     .main-content>div {

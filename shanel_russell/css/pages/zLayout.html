@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Z Layout</title>
-        <link rel="stylesheet" href="../css/main.css" type="text/css">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z Layout</title>
+    <link rel="stylesheet" href="../main.css" type="text/css">
 </head>
 
 <body>
     <nav id="nav-bar">
-        <div id="logo-container" class="bordered-div logo">
-            <img src="./images/logo.jpg" alt="Shanel Russell Logo">
+        <div id="logo-container" class="logo">
+            <img src="..\images\shan.jpg" alt="Shanel Russell Logo">
         </div>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="#">Z layout</a></li>
+        <ul class="nav-links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#" class="current">Z layout</a></li>
             <li><a href="./fLayout.html">F Layout</a></li>
             <li><a href="./boxLayout.html"> Boxes Layout</a></li>
             <li><a href="./cardGridLayout.html"> Grid of Cards</a></li>
@@ -23,5 +24,50 @@
             <li><a href="./splitScreenLayout.html"> Split Screen</a></li>
         </ul>
     </nav>
+    <div id="row1" class="zrow">
+        <div class="zrow-img">
+            <img src="../images/image 1.jpg" alt="Placeholder Image">
+        </div>
+        <div class=" zrow-text">
+            <h3>Heading</h3>
+            <p><b><span style="color:rgb(14, 70, 163)">Lorem ipsum</span></b> dolor sit amet, consectetur adipiscing
+                elit. Sed fermentum, odio id aliquet pulvinar, mi elit scelerisque mauris, a gravida magna nunc sit amet
+                arcu. Donec lacinia felis quis velit efficitur, sit amet blandit lectus aliquet. Aliquam ac odio ipsum dolor
+                sit amet, consectetur adipiscing elit. Sed fermentum, odio id aliquet pulvinar, mi elit scelerisque mauris, a gravida magna nunc sit amet
+                arcu. Donec lacinia felis quis velit efficitur, sit amet blandit lectus aliquet. Aliquam ac odio ipsum.</p>
+        </div>
+    </div>
+    <div id="row2" class="zrow-reverse">
+        <div class="zrow-img">
+            <img src="../images/image 2.jpg" alt="Placeholder Image">
+        </div>
+        <div class="zrow-text">
+            <h3>Heading</h3>
+            <p><b><span style="color:rgb(154, 200, 205)">Lorem ipsum</span></b> dolor sit amet, consectetur adipiscing
+                elit. Sed fermentum, odio id aliquet pulvinar, mi elit scelerisque mauris, a gravida magna nunc sit amet
+                arcu. Donec lacinia felis quis velit efficitur, sit amet blandit lectus aliquet. dolor sit amet, consectetur
+                adipiscing elit. Sed fermentum, odio id aliquet pulvinar, mi elit scelerisque mauris, a gravida magna nunc sit amet
+                arcu. Donec lacinia felis quis velit efficitur, sit amet blandit lectus aliquet. Aliquam ac odio ipsumAliquam ac odio ipsum.</p>
+        </div>
+    </div>
+    <div id="row3" class="zrow">
+        <div class="zrow-img">
+            <img src="../images/image 3.jpg" alt="Placeholder Image">
+    </div>
+        <div class="zrow-text">
+            <h3>Heading</h3>
+            <p><b><span style="color:rgb(22, 121, 171)">Lorem ipsum</span></b> dolor sit amet, consectetur adipiscing
+                elit. Sed fermentum, odio id aliquet pulvinar, mi elit scelerisque mauris, a gravida magna nunc sit amet
+                arcu. Donec lacinia felis quis velit efficitur, sit amet blandit lectus aliquet. Aliquam ac odio ipsumdolor sit amet,
+                consectetur adipiscing elit. Sed fermentum, odio id aliquet pulvinar, mi elit scelerisque mauris, a gravida magna nunc sit amet
+                arcu. Donec lacinia felis quis velit efficitur, sit amet blandit lectus aliquet. Aliquam ac odio ipsum.</p>
+        </div>
+    </div>
+    <footer id="footer">
+        <div id="footer-content">
+            <p>&copy; 2024 Shanel Russell</p>
+        </div>
+    </footer>
 </body>
+
 </html>
