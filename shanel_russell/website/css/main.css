@@ -407,6 +407,37 @@ container {
     padding: 20px;
 }
 
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-policy {
+    margin-top: 20px;
+}
+
+.pdf-link {
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pdf-link:hover {
+    color: #004499;
+}
+
+.pdf-icon {
+    width: 24px;
+    height: auto;
+}
+
+
 .service {
     margin-bottom: 40px;
 }
