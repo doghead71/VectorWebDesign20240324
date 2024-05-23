@@ -43,20 +43,21 @@ footer{
     margin: 0 auto;
     text-align: center;
     flex-wrap: wrap;
-
 }
 
-
-.main-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    height: 100px;
-    align-items: baseline;
-    flex-wrap: wrap;
-    
-}
-
+#flex-container {
+    display:flex;
+    flex-direction:column;
+ 
+    /* fallback height */
+    min-height:100vh;
+ 
+    /* new small viewport height for modern browsers */
+    min-height: auto;
+ }
+ #flex-container > footer {
+    margin-top:auto;
+ }
 img {
     width: 100%;
     height: auto;
