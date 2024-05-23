@@ -14,33 +14,33 @@
       <div id="logo_container" class="logo">
         <img src="../images/logo.png" alt="Orlando Gordon Logo">
       </div>
-      <ul>
+      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      <ul id="menu">
         <li><a href="./index.html">Home</a></li>
+        <li><a href="./products.html">Products</a></li>
         <li><a href="./about.html">About</a></li>
         <li><a href="./contact.html">Contact Us</a></li>
-        <li><a href="./products.html">Products</a></li>
         <li><a href="./faq.html">FAQ</a></li>
         <li><a href="#" class="current">Reviews</a></li>
       </ul>
     </nav>
   </header>
   <div class="container">
-    <div class="main-content Frow">
-      <div class="Frow-img">
+    <h2>Reviews</h2>
+    <div>
+      <div class="imgContainer">
         <img src="../images/reviews_image.jpg" alt="Reviews Image">
       </div>
-      <div class="Frow-text">
-        <h2>Reviews</h2>
-        <p>Here are some reviews from our satisfied clients:</p>
-        <div >
+      <div class="reviews">
+        <h2>Here are some reviews from our satisfied clients:</h2>
+        <br>
+        <div>
           <h3>Ashley N</h3>
           <p>"I had the most relaxing massage at this spa. Highly recommended!"</p>
-        </div>
-        <div >
+          <br>
           <h3>Peter S</h3>
           <p>"The staff here is so friendly and professional. I always leave feeling refreshed."</p>
-        </div>
-        <div >
+          <br>
           <h3>Joan R</h3>
           <p>"The ambiance is wonderful, i was provided a welcoming drink, and the greatest customer service."</p>
         </div>
@@ -51,6 +51,7 @@
   <footer>
     <p>&copy; 2024 Lando's Spa Website. All rights reserved.</p>
   </footer>
+  <script src="../js/main.js"></script>
 </body>
 
 </html>

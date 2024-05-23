@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About</title>
   <link rel="stylesheet" href="../css/main.css">
 </head>
+
 <body>
   <header>
     <nav id="nav-bar">
       <div id="logo_container" class="logo">
-          <img src="../images/logo.png" alt="Orlando Gordon Logo">
+        <img src="../images/logo.png" alt="Orlando Gordon Logo">
       </div>
-      <ul>
+      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      <ul id="menu">
         <li><a href="./index.html">Home</a></li>
+        <li><a href="./products.html">Products</a></li>
         <li><a href="#" class="current">About</a></li>
         <li><a href="./contact.html">Contact Us</a></li>
-        <li><a href="./products.html">Products</a></li>
         <li><a href="./faq.html">FAQ</a></li>
         <li><a href="./reviews.html">Reviews</a></li>
       </ul>
@@ -24,12 +27,40 @@
   </header>
 
   <div class="container">
-    <h1>Welcome to Lando's Spa</h1>
-    <p>Your oasis of relaxation and rejuvenation</p>
+    <h2>About Us</h2>
+    <div>
+      <div class="imgContainer">
+        <img src="../images/about_image.jpg" alt="About Image">
+      </div>
+      <div class="container">
+
+        <p> At Lando's Spa, we offer a comprehensive range of spa treatments tailored to meet the unique needs of each
+          client. From soothing massages that melt away tension to invigorating facials that leave your skin radiant,
+          our experienced therapists ensure that every visit is a journey of self-care and indulgence. Pamper yourself
+          with our deluxe body treatments, including luxurious manicures and pedicures, designed to nourish and
+          revitalize your hands and feet.
+        </p><br>
+        <p> Since our inception in 2012, we have established ourselves as a premier destination for wellness and
+          relaxation in Kingston. Our serene atmosphere, coupled with our dedication to excellence, has made us the
+          preferred choice for discerning clients seeking a sanctuary away from the hustle and bustle of daily life.
+          Conveniently located in Kingston, our spa provides a tranquil oasis where you can escape, unwind, and
+          experience the ultimate in pampering.
+        </p><br>
+        <p> At Lando's Spa, we believe in the transformative power of self-care and strive to create an environment
+          where
+          you can indulge your senses and rejuvenate your mind, body, and spirit. Whether you're seeking a quick escape
+          from the stresses of the day or a comprehensive spa retreat, we invite you to experience the epitome of
+          relaxation at Lando's Spa.
+
+        </p>
+      </div>
+    </div>
   </div>
 
   <footer>
     <p>&copy; 2024 Lando's Spa Website. All rights reserved.</p>
   </footer>
+  <script src="../js/main.js"></script>
 </body>
+
 </html>

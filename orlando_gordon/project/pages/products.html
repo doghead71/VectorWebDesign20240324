@@ -14,11 +14,12 @@
       <div id="logo_container" class="logo">
         <img src="../images/logo.png" alt="Orlando Gordon Logo">
       </div>
-      <ul>
+      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      <ul id="menu">
         <li><a href="./index.html">Home</a></li>
+        <li><a href="#" class="current">Products</a></li>
         <li><a href="./about.html">About</a></li>
         <li><a href="./contact.html">Contact Us</a></li>
-        <li><a href="#" class="current">Products</a></li>
         <li><a href="./faq.html">FAQ</a></li>
         <li><a href="./reviews.html">Reviews</a></li>
       </ul>
@@ -27,25 +28,35 @@
 
   <div class="container">
     <h2>Our Products/Services/Pricing</h2>
-    <div class="main-content Frow">
-      <div class="Frow-img">
-        <div class="images-group">
-          <img src="../images/products_image.jpg" alt="Massage Image">
-          <img src="../images/products_image2.jpg" alt="Facial Image">
-          <img src="../images/products_image3.jpg" alt="Body Image">
-        </div>
+  </div>
+  <div class="Cardcontainer">
+    <div class="card-grid">
+      <div class="card">
+        <img src="../images/products_image.jpg" alt="Massage Image">
+        <h3>Massage</h3>
+        <p>$60</p>
       </div>
-      <div class="images-group">
-        <h3>Massage $60</h3>
-        <h3>Facial $50</h3>
-        <h3>Body Treatment $70</h3>
+      <div class="card">
+        <img src="../images/products_image2.jpg" alt="Facial Image">
+        <h3>Facial</h3>
+        <p>$50</p>
+      </div>
+      <div class="card">
+        <img src="../images/products_image3.jpg" alt="Body Image">
+        <h3>Body Treatment</h3>
+        <p>$70</p>
+      </div>
+      <div class="card">
+        <img src="../images/sauna.jpg" alt="Sauna Image">
+        <h3>Sauna</h3>
+        <p>$100</p>
       </div>
     </div>
   </div>
-
   <footer>
     <p>&copy; 2024 Lando's Spa Website. All rights reserved.</p>
   </footer>
+  <script src="../js/main.js"></script>
 </body>
 
 </html>

@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frequently asked questions</title>
   <link rel="stylesheet" href="../css/main.css">
 </head>
+
 <body>
   <header>
     <nav id="nav-bar">
       <div id="logo_container" class="logo">
-          <img src="../images/logo.png" alt="Orlando Gordon Logo">
+        <img src="../images/logo.png" alt="Orlando Gordon Logo">
       </div>
-      <ul>
-        <li><a href="./index.html" >Home</a></li>
+      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      <ul id="menu">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./products.html">Products</a></li>
         <li><a href="./about.html">About</a></li>
         <li><a href="./contact.html">Contact Us</a></li>
-        <li><a href="./products.html">Products</a></li>
         <li><a href="#" class="current">FAQ</a></li>
         <li><a href="./reviews.html">Reviews</a></li>
       </ul>
@@ -24,12 +27,12 @@
   </header>
 
   <div class="container">
-    <div class="main-content Frow">
-      <div class="Frow-img">
+    <h2>Frequently Asked Questions</h2>
+    <div>
+      <div class="imgContainer">
         <img src="../images/faq_image.jpg" alt="FAQ Image">
       </div>
-      <div class="Frow-text">
-        <h2>Frequently Asked Questions</h2>
+      <div>
         <h3>Do you accept walkins?</h3>
         <p>While we would prefer you make an appointment we most defintely welcome walkins.</p>
         <br>
@@ -37,7 +40,8 @@
         <p>All our staff are certified according to Spalogy internationally certifications.</p>
         <br>
         <h3>Do you offer packages for birthdays, anniversaries, etc?</h3>
-        <p>We have a wide range of packages that could include 2 or more of our services and our packages can also be customized to your liking.</p>
+        <p>We have a wide range of packages that could include 2 or more of our services and our packages can also be
+          customized to your liking.</p>
       </div>
     </div>
   </div>
@@ -45,5 +49,7 @@
   <footer>
     <p>&copy; 2024 Lando's Spa Website. All rights reserved.</p>
   </footer>
+  <script src="../js/main.js"></script>
 </body>
+
 </html>

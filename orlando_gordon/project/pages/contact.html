@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us</title>
   <link rel="stylesheet" href="../css/main.css">
 </head>
+
 <body>
   <header>
     <nav id="nav-bar">
       <div id="logo_container" class="logo">
-          <img src="../images/logo.png" alt="Orlando Gordon Logo">
+        <img src="../images/logo.png" alt="Orlando Gordon Logo">
       </div>
-      <ul>
+      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      <ul id="menu">
         <li><a href="./index.html">Home</a></li>
+        <li><a href="./products.html">Products</a></li>
         <li><a href="./about.html">About</a></li>
         <li><a href="#" class="current">Contact Us</a></li>
-        <li><a href="./products.html">Products</a></li>
         <li><a href="./faq.html">FAQ</a></li>
         <li><a href="./reviews.html">Reviews</a></li>
       </ul>
@@ -24,12 +27,12 @@
   </header>
 
   <div class="container">
-    <div class="main-content Frow">
-      <div class="Frow-img">
+    <h2>Contact Us</h2>
+    <div>
+      <div class="imgContainer">
         <img src="../images/contact_image.jpg" alt="Contact Image">
       </div>
-      <div class="Frow-text">
-        <h2>Contact Us</h2>
+      <div>
         <p>Feel free to reach out to us for any inquiries or to schedule an appointment.</p>
         <p>Email: info@landospa.com</p>
         <p>Phone: 123-456-7890</p>
@@ -39,5 +42,7 @@
   <footer>
     <p>&copy; 2024 Lando's Spa Website. All rights reserved.</p>
   </footer>
+  <script src="../js/main.js"></script>
 </body>
+
 </html>
