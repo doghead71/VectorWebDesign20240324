@@ -4,7 +4,7 @@ body {
 }
 
 .bordered-div {
-    border: 2px double rgb(22, 121, 171);
+    border: 2px double rgb(115, 144, 114)
     padding: 10px;
     margin: 10px;
     border-radius: 15px;
@@ -350,6 +350,40 @@ p {
         flex: 100%;
     }
 
+}
+/* Styles for header, navigation, and footer remain the same as before */
+
+.container {
+    padding: 20px;
+    background-color: rgb(115, 144, 114)
+}
+
+.about,
+.team,
+.mission,
+.facility,
+.gallery {
+    margin-bottom: 40px;
+}
+
+.about h2,
+.team h2,
+.mission h2,
+.facility h2,
+.gallery h2 {
+    margin-top: 0;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.gallery-images img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 @media only screen and (max-width: 600px) {
