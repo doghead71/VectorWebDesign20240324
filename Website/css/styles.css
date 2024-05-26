@@ -5,10 +5,10 @@ body {
     color: black;
 }
 
-div {
+/*div {
     text-align: justify;
     text-justify: inter-word;
-  }
+}*/
 
 header {
     background-color: black;
@@ -51,19 +51,87 @@ footer {
 }
 
 .container {
-    margin: 1em;
-}
-
-.responsive-img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Layout-specific CSS */
-.f-layout {
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
+
 }
+
+.monitoring-img {
+    min-width: 100px;
+    flex: 25%;
+    padding: 20px;
+    margin-left: 0%;
+    margin-right: 120px;
+}
+
+.survelance-img {
+    min-width: 100px;
+    flex: 25%;
+    padding: 20px;
+    margin-left: 0%;
+    margin-right: 90px;
+}
+
+.accesscontrol-img {
+    min-width: 100px;
+    flex: 25%;
+    padding: 20px;
+    margin-left: 0%;
+    margin-right: 70px;
+}
+
+
+.f-layout-text-row1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 25%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+.f-layout-text-row2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+.f-layout-text-row3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 75%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.f-layout-text-row4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 30%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+/*
+.f-layout-photos{
+    min-width: 100px;
+    flex: 25%;
+    padding: 20px;
+   
+
+  }*/
 
 .asymmetrical-layout {
     display: grid;
@@ -94,7 +162,9 @@ footer {
         flex-direction: column;
         align-items: flex-start;
     }
+
     header nav ul {
         flex-direction: column;
     }
 }
+
