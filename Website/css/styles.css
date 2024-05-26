@@ -60,15 +60,15 @@ footer {
 .monitoring-img {
     min-width: 100px;
     flex: 25%;
-    padding: 20px;
+    padding: 0px;
     margin-left: 0%;
-    margin-right: 120px;
+    margin-right:auto;
 }
 
 .survelance-img {
     min-width: 100px;
     flex: 25%;
-    padding: 20px;
+    padding: 0px;
     margin-left: 0%;
     margin-right: 90px;
 }
@@ -76,7 +76,7 @@ footer {
 .accesscontrol-img {
     min-width: 100px;
     flex: 25%;
-    padding: 20px;
+    padding: 0px;
     margin-left: 0%;
     margin-right: 70px;
 }
@@ -96,7 +96,7 @@ footer {
 .f-layout-text-row2 {
     display: flex;
     flex-direction: column;
-    margin-left: 15px;
+    margin-left: auto;
     margin-right: 50%;
     text-align: justify;
     text-justify: inter-word;
@@ -107,7 +107,7 @@ footer {
 .f-layout-text-row3 {
     display: flex;
     flex-direction: column;
-    margin-left: 15px;
+    margin-left: auto;
     margin-right: 75%;
     text-align: justify;
     text-justify: inter-word;
