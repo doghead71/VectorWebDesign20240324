@@ -52,48 +52,40 @@ footer {
 
 .container {
     margin-left: 20px;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
 
 }
 
 .monitoring-img {
-    min-width: 100px;
+    display: flex;
+    flex-direction: column;
     flex: 25%;
     padding: 0px;
     margin-left: 0%;
-    margin-right:auto;
+    margin-right: 50%;
 }
 
 .survelance-img {
-    min-width: 100px;
-    flex: 25%;
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
     padding: 0px;
     margin-left: 0%;
-    margin-right: 90px;
+    margin-right:70%;
 }
 
 .accesscontrol-img {
-    min-width: 100px;
-    flex: 25%;
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
     padding: 0px;
     margin-left: 0%;
-    margin-right: 70px;
+    margin-right: 80%;
 }
 
 
 .f-layout-text-row1 {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: 25%;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-
-
-.f-layout-text-row2 {
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -104,11 +96,22 @@ footer {
 
 
 
+.f-layout-text-row2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 70%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
 .f-layout-text-row3 {
     display: flex;
     flex-direction: column;
     margin-left: auto;
-    margin-right: 75%;
+    margin-right: 80%;
     text-align: justify;
     text-justify: inter-word;
 }
