@@ -68,7 +68,7 @@ footer {
     flex: 50%;
     padding: 0px;
     margin-left: 0%;
-    margin-right:70%;
+    margin-right: 70%;
 }
 
 .accesscontrol-img {
@@ -133,50 +133,38 @@ footer {
   }*/
 
 .container-asymmetrical-layout {
-   
-    grid-template-columns: 2fr 1fr;
-    gap: 1em;
+
     display: flex;
-    flex-direction: row;
-    
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
 }
+
+/* .aboutus-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+} */
 
 .aboutus-img {
-    /* display: flex;
-    flex-direction: row; */
-    flex: 50%;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 50%;
-    min-width: 50px;
-}
-
-.mission-img {
-    /* display: flex;
-    flex-direction: row; */
-    flex: 50%;
-    padding: 16px;
-    margin-left: 2%;
-    margin-right: 50%; 
-    min-width: 50px;
-}
-
-.aboutus-text {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    text-align: justify;
-    text-justify: inter-word;
-}
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+ }
 
 
 .mission-text {
-    display: flex;
-    flex-direction: row;
+    flex: 1;
     padding: 20px;
     text-align: justify;
     text-justify: inter-word;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 
 .card-grid-layout {
     display: grid;
@@ -184,11 +172,32 @@ footer {
     gap: 1em;
 }
 
-.box-layout {
+.products-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
 }
+
+.products-box-layout   {
+    flex: 1 0 300px;
+      max-width: 300px;
+      padding: 20px;
+      border-radius: 8px;
+}
+
+.products-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+
+
+
 
 .z-layout {
     display: flex;
@@ -226,6 +235,6 @@ footer {
     flex: 50%;
     padding: 16px;
     margin-left: 2%;
-    margin-right: auto; 
+    margin-right: auto;
     min-width: 50px;
-    }
+}
